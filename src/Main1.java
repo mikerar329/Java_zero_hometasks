@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-class Main  {
+class Main1  {
     public static void main(String[] args) {
         nums();
     }
-        public static int nums() {
+    public static int nums() {
         try {
             Scanner scan = new Scanner(System.in);
             int a = scan.nextInt(), b = scan.nextInt(), c = scan.nextInt();
@@ -19,6 +19,6 @@ class Main  {
             return  -1;
         }
         return 0;
-       }
+    }
 
 }
