@@ -6,14 +6,14 @@ public class Main5 {
 
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
-        boolean qest = true;
+        boolean right = true;
 
-        while (qest == true) {
+        while (right == true) {
             if (num < 100000 || num > 999999) {
                 System.out.println("Number is not six-digit");
                 num = scan.nextInt();
             }
-            else qest = false;
+            else right = false;
         }
         int sum = 0;
         double multi = 1;
