@@ -8,7 +8,17 @@ public class Main4 {
         boolean sequenceDown = true;
         boolean sequenceUp = true;
 
+        boolean qest = true;
+
         int num = scan.nextInt();
+
+        while (qest == true) {
+            if (num < 1000 || num > 9999) {
+                System.out.println("Number is not four-digit");
+                num = scan.nextInt();
+            }
+            else qest = false;
+        }
         int numCpy = num;
         int prev = num % 10;
         num /= 10;
